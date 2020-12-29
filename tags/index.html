@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-	<meta name="generator" content="Hugo 0.76.2" />
-    <title>Bofei CHEN</title>
-    <meta name="description" content="" />
+    <title>Tags</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -24,53 +22,38 @@
 
 <link rel="stylesheet" href="/assets/css/style.css" />
 
-    <link rel="stylesheet" href="/assets/css/sections/home.css" />
-    <link rel="stylesheet" href="/assets/css/sections/about.css" />
-    <link rel="stylesheet" href="/assets/css/sections/skills.css" />
-    <link rel="stylesheet" href="/assets/css/sections/experiences.css" />
-    <link rel="stylesheet" href="/assets/css/sections/projects.css" />
-    <link rel="stylesheet" href="/assets/css/sections/recent-posts.css" />
-    <link rel="stylesheet" href="/assets/css/sections/achievements.css" />
+    
+    <link rel="stylesheet" href="/assets/css/layouts/list.css">
+    <link rel="stylesheet" href="/assets/css/navigators/sidebar.css">
+
 
     
     
   </head>
-  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
     
 
 
 
 
-
-
-
-<nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
   <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <a class="navbar-brand" href="/">
-      <img src="http://example.org/assets/images/inverted-logo.png" id="logo">Bofei CHEN</a>
-    <button
-      class="navbar-toggler navbar-dark"
-      id="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#top-nav-items"
-    >
+      <img src="http://example.org/assets/images/main-logo.png">Bofei CHEN</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="top-nav-items">
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#home"></a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
+      
       </ul>
     </div>
   </div>
@@ -81,43 +64,49 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="container-fluid home" id="home">
-  <div
-    class="background container-fluid"
-    style="background-image: url('http://example.org/assets/images/default-background.jpg');"
-  ></div>
-  <div class="container content text-center">
-    <img src="http://example.org/assets/images/default-avatar.png"
-      class="rounded-circle mx-auto d-block img-fluid"
-    />
-    <h1 class="greeting">  Jane Doe</h1>
-    <div class="typing-carousel">
-      <span id="ityped" class="ityped"></span>
-      <span class="ityped-cursor"></span>
-    </div>
-    <ul id="typing-carousel-data">
       
-    </ul>
-    
+      
+  
+  
+
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <input type="text" value="" placeholder="Search" data-search="" id="search-box" />
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="http://example.org/posts" data-filter="all">Posts</a></li>
+            <div class="subtree">
+                
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      
+      
+    </div>
+    <div class="paginator">
+      
+
+
+    </div>
   </div>
-</div>
+</section>
 
-    
-    
 
-    
+      
+       
+    </div>
 
     
 
@@ -172,9 +161,8 @@
 
 
     
-    <script src="/assets/js/itype.min.js"></script>
-    <script src="/assets/js/github-button.js"></script>
-    <script src="/assets/js/home.js"></script>
-    <script src="/assets/js/jquery.filterizr.min.js"></script>
+    
+    <script src="/assets/js/list.js"></script>
+
   </body>
 </html>
