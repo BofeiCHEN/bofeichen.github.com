@@ -1,2 +1,3 @@
 # bofeichen.github.com
-web pages of Bofei CHEN
+This is the project for personal web pages of Bofei CHEN:
+https://bofeichen.github.io/
