@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://bofeichen.github.io/fr/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bofeichen.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://bofeichen.github.io/bn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bofeichen.github.io/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bofeichen.github.io/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bofeichen.github.io/fr/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bofeichen.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://bofeichen.github.io/bn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bofeichen.github.io/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bofeichen.github.io/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bofeichen.github.io/fr/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bofeichen.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="bn"
+                href="https://bofeichen.github.io/bn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://bofeichen.github.io/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://bofeichen.github.io/fr/tags/"
+                />
+  </url>
+  
+</urlset>
