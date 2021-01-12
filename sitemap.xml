@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <sitemap>
-    <loc>https://bofeichen.github.io/en/sitemap.xml</loc>
-    
-  </sitemap>
+  <url>
+    <loc>https://bofeichen.github.io/</loc>
+  </url>
   
-  <sitemap>
-    <loc>https://bofeichen.github.io/fr/sitemap.xml</loc>
-    
-  </sitemap>
+  <url>
+    <loc>https://bofeichen.github.io/categories/</loc>
+  </url>
   
-  <sitemap>
-    <loc>https://bofeichen.github.io/bn/sitemap.xml</loc>
-    
-  </sitemap>
+  <url>
+    <loc>https://bofeichen.github.io/tags/</loc>
+  </url>
   
-  <sitemap>
-    <loc>https://bofeichen.github.io/de/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+</urlset>
