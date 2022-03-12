@@ -13,35 +13,60 @@ section:
 skills:
 - name: C++
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  summary: "Learn C/C++ in university. More than 4 years working experience."
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with git-based development. Use Github and GitLab."
   url: "https://git-scm.com/"
-  
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: Qt
+  logo: /images/sections/skills/qt.png
+  summary: "Developed some projects in Qt, including some GUI work."
+  url: "https://www.qt.io/"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+- name: TensorFlow
+  logo: /images/sections/skills/tensorflow.png
+  summary: "Know basic TensorFlow knowledge. Used for some project in some course."
+  url: "https://www.tensorflow.org/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+- name: Gazebo
+  logo: /images/sections/skills/gazebo.png
+  summary: "Know basic Gazebo knowledge. Play with it in some personal project and some course."
+  url: "http://gazebosim.org/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+- name: ROS
+  logo: /images/sections/skills/ros.png
+  summary: "Know basic ROS1 knowledge. Taken some course and play with it in some personal project."
+  url: "https://www.ros.org/"
+
+- name: Arduino
+  logo: /images/sections/skills/arduino.png
+  summary: "Play with Arduino UNO in some personal project, including one mini-car."
+  url: "https://www.arduino.cc/"
+
+# - name: Go Development
+#   logo: /images/sections/skills/go.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: Cloud Computing
+#   logo: /images/sections/skills/cloud.png
+#   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+
+# - name: Docker
+#   logo: /images/sections/skills/docker.svg
+#   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+#   url: "https://www.docker.com/"
+
+# - name: Prometheus
+#   logo: /images/sections/skills/prometheus.png
+#   summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+#   url: "https://prometheus.io/"
+
+# - name: Linux
+#   logo: /images/sections/skills/linux.png
+#   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
 
 
 
