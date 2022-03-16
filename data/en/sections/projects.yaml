@@ -48,6 +48,14 @@ projects:
   summary: An project in the online course Self-driving Car Engineer Nano degree.
   tags: ["professional", "self-driving", "ROS"]
 
+- name: Arduino
+  logo: /images/sections/projects/arduino.png
+  role: Developer
+  timeline: "Feb 2022 - Present"
+  repo: https://github.com/BofeiCHEN/Ardunio.git
+  #url: ""
+  summary: Play with Arduino. Based on the Starter Kit Projects Book of Arduino.
+  tags: ["hobby", "embedded"]
 
 # - name: A sample academic paper
 #   role: Team Lead
