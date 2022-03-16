@@ -16,8 +16,8 @@ buttons:
   filter: "professional"
 - name: Academic
   filter: "academic"
-- name: Hobby
-  filter: "hobby"
+- name: Personal
+  filter: "personal"
 
 # your projects
 projects:
@@ -55,7 +55,7 @@ projects:
   repo: https://github.com/BofeiCHEN/Ardunio.git
   #url: ""
   summary: Play with Arduino. Based on the Starter Kit Projects Book of Arduino.
-  tags: ["hobby", "embedded"]
+  tags: ["personal", "embedded"]
 
 # - name: A sample academic paper
 #   role: Team Lead
