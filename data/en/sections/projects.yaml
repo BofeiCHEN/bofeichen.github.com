@@ -57,6 +57,15 @@ projects:
   summary: Play with Arduino. Based on the Starter Kit Projects Book of Arduino.
   tags: ["personal", "embedded"]
 
+- name: Robot Car
+  logo: /images/sections/projects/robot-car.png
+  role: Developer
+  timeline: "Feb 2022 - Present"
+  repo: https://github.com/BofeiCHEN/Robot-Car.git
+  #url: ""
+  summary: Play with my Robot Car. Do some self-driving experiments.
+  tags: ["personal", "embedded", "self-driving"]
+
 # - name: A sample academic paper
 #   role: Team Lead
 #   timeline: "Jan 2017 - Nov 2017"
